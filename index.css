@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: cursive;
+}
+.navbar{
+    background-color: #fff;
+}
+.search-btn{
+    flex-direction: row;
+    display: flex;
+}
+.container-fluid{
+    margin-left:5rem;
+}
+.kl{
+    height: 3rem;
+    width: 7rem;    
+    /* margin-left: 25px; */
+    margin-right: 2rem;
+}
+.banner-bg {
+    background-image: url("https://scontent.fblr2-2.fna.fbcdn.net/v/t39.30808-6/289376679_7724879397584096_5194820264427626204_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=zBFt11gvLD4Ab6DQxH5&_nc_ht=scontent.fblr2-2.fna&oh=00_AfDAbA0J3qHfwMXQUuSWSWLxqN-PCuaM1sSmxqrif3-3BQ&oe=661C53C2");
+    height: 100vh;
+    background-size: cover;
+
+}
+
+.banner-heading {
+    color: white;
+    font-family: roboto;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.caption {
+    color: #f5f7fa;
+    font-family: roboto;
+    font-weight: 300;
+    font-size: 30px;
+
+}
+
+/* about Us */
+
+.heading{
+    text-align: center;
+}
+
+.circleContainer {
+    display: inline-block;
+    max-width: 100%; 
+    height: auto;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: 20px; 
+  }
+  .paragraph{
+    text-align: center;
+  }
+
+  /* admission */
+
+  .background {
+    background-color: #f2f2f2;
+    padding: 50px 0;
+}
+
+.heading {
+    margin-bottom: 30px;
+}
+.img{
+    margin-top: 2rem;
+}
+.btn{
+    margin-left: 10rem;
+    width: 15rem;
+}
+
+.image_student {
+    margin-top: 2rem;
+    width: 25rem;
+    margin-left: 2rem;
+    height: 20rem;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgb(0 0 0/0.2);
+}
+
+
+label {
+    font-weight: bold;
+}
+
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px rgb(0 0 0/0.2);
+}
+
+
+input[type="submit"] {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 3px 10px rgb(0 0 0/0.2);
+}
+
+@media (max-width: 768px) {
+    .col-md-6 {
+        text-align: center;
+    }
+
+    .image_student {
+        margin-top: 20px;
+    }
+}
+.heading{
+ font-family: "Salsa", cursive;;
+}
+image{
+    height:50vh;
+    width: 70;
+}
+
+/* modules */
+body {
+    height: 100%;
+    background: linear-gradient(rgb(236, 225, 225), white);
+    background-repeat: no-repeat;
+}
+.card-container {
+    background-color: grey;
+    height: auto;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgb(0 0 0/0.2);
+    margin-top: 2rem;
+   margin-bottom: 2rem;
+  
+}
+
+.linkStyle{
+    color: black;   
+    text-decoration: none;
+}
+
+.cent{
+    text-align: center;
+    margin: 10px;
+    margin-top: 20px;
+}
+
+.twitter-circle{
+    height: 50px;
+    width: 50px;
+    background-color: #faf7e8;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+.bi-twitter{
+    color: #d0b200;;
+}   
+
+.instagram-circle{
+    height: 50px;
+    width: 50px;
+    background-color: #faf7e8;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+.bi-instagram{
+    color: #d0b200;;
+}   
+
+.facebook-circle{
+    height: 50px;
+    width: 50px;
+    background-color: #faf7e8;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+.bi-facebook{
+    color: #d0b200;
+} 
+
+.end-section{
+    background-size: cover;
+    color: white;
+    /* padding: 50px; */
+}
+
+.cen{
+    text-align: center;
+}
+
+.footer{
+    width: 100%;
+}
+.twitter, .facebook, .instagram{
+    margin-top: 10px;
+    height: 30px;
+    color: #d0b200;;
+}
